@@ -1,0 +1,109 @@
+@import url(https://weloveiconfonts.com/api/?family=brandico|zocial);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: rgb(135, 138, 132) ;
+}
+.caja{
+    padding: 2%;
+    background-image: url(../img/biblio.jpg)
+}
+#ini{
+    background-color: rgba(120, 122, 118, 0.849) ;
+    width: 185px;
+    margin-left: 1050px;
+    border-radius: 10px;
+}
+.salir{
+    background-color: rgb(135, 138, 132) ;
+    border-radius: 10px;
+    margin-left: 100px;
+    text-align:center ;
+}
+.docu{
+    background-color: rgba(120, 122, 118, 0.849) ;
+    border: 1px solid  black;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    width: 650px;
+    margin-top:30px;
+    margin-left: 310px;
+}
+.base{
+    background-color: rgba(120, 122, 118, 0.849) ;
+    border: 1px solid  black;
+    border-radius: 20px;
+    padding: 2%;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 1250px;    
+}
+footer{
+    text-align: center;
+    background-color: rgb(135, 138, 132) ;
+    font-size: 35px;
+}
+select{
+    border-radius: 7px;
+    border: solid 2px black;
+    margin-left: -20px;
+}
+input{
+    border-radius: 7px;
+    border: solid 2px black ;
+    font-size: 20px;
+}  
+#let{
+    color: black;
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin-left: 70px;
+    padding: 2%;
+}
+legend{
+    font-size: 25px;
+}
+@media(min-width:200px) and (max-width:1300px){
+    .base{
+        margin-left: 6px;
+        margin-top: 20px;
+        flex: 50%;
+        max-width: 90%;
+    }
+    label{
+        font-size: 9px;
+    }
+    .base a{
+        font-size: 9px;
+    }
+    .docu{
+        margin-left: 6px;
+        margin-top: 20px;
+        flex: 50%;
+        max-width: 90%;
+        font-size: 10px;
+    }
+    #ini{
+        margin-left: 200px;
+        margin-top: 20px;
+        flex: 50%;
+        max-width: 90%;
+        font-size: 10px;
+    }
+}

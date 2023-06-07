@@ -1,0 +1,56 @@
+@import url(https://weloveiconfonts.com/api/?family=brandico|zocial);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    background-color: rgb(135, 138, 132) ;
+    text-align: center;
+}
+
+#inicio1{
+    background-color: rgba(135, 138, 132, 0.747) ;
+    width:  400px;
+    height: 170px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    margin-left: 400px;
+}
+#padre1{
+    background-color: rgba(72, 112, 38, 0.438) ;
+    height: 400px;
+    padding:  100px 0px 0px 19px;
+    background-repeat: no-repeat;
+    background-image: url(../img/biblio.jpg)
+}
+footer{
+    background-color: rgb(135, 138, 132) ;
+    text-align: center;
+    font-size: 35px;
+}
+#let{
+    color: black;
+}
+input{
+    border: solid 2px black;
+    border-radius: 10px;
+
+}
+@media(min-width:200px) and (max-width:1100px){
+    #inicio1{
+        margin-left: 30px;
+        flex:150%
+    }
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Libros</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/solicitarlibros.css">
+    <link rel="icon" href="../img/libro1.ico">
+
+</head>
+<body>
+        <header>
+            <h1>
+                Biblioteca <br>
+                "Las aventuras de los libros"
+            </h1>
+            <nav id='menu'>
+                <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+                <ul>
+                    <li><a href='../inicio/inicio.html' >Inicio</a></li>
+                        <li><a href='/crear_libros/crearlibros.html' >Crear libros</a></li>
+                        <li><a href='/solicitar_libro/solicitarlibros.html'>Solicitar libros</a></li>
+                        <li><a href='/entregar_libros/entregarlibros.html'>Entregar libros</a></li>
+
+                    </ul>
+                </ul>
+            </nav>
+        </header>
+        <div class="caja">
+            <div id="ini">
+                <img src="../img/usuario.jpeg" alt="">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">perfil</label>
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">Jhojan Acuña</option>
+                                <option value="">Pedro perez</option>
+                                <option value=""> ximena parada</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for=""></label>
+                        </td>
+                        <td>
+                            <a href="../index.html">Salir</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="docu">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">Buscar libro por: </label>
+                        </td>
+                        <td>
+                            <input type="radio" name="estado" id="civil"> Titulo
+                            <input type="radio" name="estado" id="civil"> Autor
+                            <input type="radio" name="estado" id="civil"> Área
+                        </td>
+                        <td>
+                            <input type="search" name="" id="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="base">
+                <legend>Solicitar libros</legend>
+                <form action="">
+                    <table>
+                        <tr>
+                            <td><label for="">Título</label></td>
+                            <td><label for="">Editotial</label></td>
+                            <td><label for="">ISBN</label></td>
+                            <td><label for="">Autor(es)</label></td>
+                            <td><label for="">Núm.páginas</label></td>
+                            <td><label for="">Núm.Ejemplares</label></td>
+                            <td><label for="">Disponible</label></td>
+                            <td><label for="">Disponible para:</label></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Bases de datos NoSQL</label></td>
+                            <td><label for="">Mc Graw Hill</label></td>
+                            <td> <label for="">45-23-5-223</label> </td>
+                            <td><label for="">Luis Estupiñan <br>Lucrecia Albarracin  </label></td>
+                            <td><label for="">189</label></td>
+                            <td><label for="">3</label></td>
+                            <td><label for="">Si</label></td>
+                            <td> <label for="">Sala</label></td>
+                            <td><a href="">Ver contenido</a></td>
+                            <td><a href="">solicitar</a></td>
+                        </tr>
+                        <tr>
+                          <td><label for="">Gestión de bases de datos</label></td>
+                          <td><label for="">heroes</label></td>
+                          <td><label for="">6-788-334-5</label></td>
+                          <td><label for="">Laura Lopez <br>Maria Muñoz Lucia Lucca</label></td>
+                          <td><label for="">345</label></td>
+                          <td><label for="">2</label></td>
+                          <td><label for="">No</label></td>
+                          <td><label for="">Casa</label></td>
+                          <td><a href="">Ver contenido</a></td>
+                        </tr>
+                        <tr>
+                          <td><label for="">Guía práctica de bases de datos</label></td>
+                          <td><label for="">Principe</label></td>
+                          <td><label for="">6-789-23-56-7</label></td>
+                          <td><label for="">Pappilla Rusberly</label></td>
+                          <td><label for="">56</label></td>
+                          <td><label for="">1</label></td>
+                          <td><label for="">si</label></td>
+                          <td><label for="">Sala</label></td>
+                          <td><a href="">Ver contenido</a></td>
+                            <td><a href="">solicitar</a></td>
+                        </tr>
+                        <tr>
+                          <td><label for="">Modelado de bases de datos</label></td>
+                          <td><label for="">Luciernaga</label></td>
+                          <td><label for="">6-788-334-5</label></td>
+                          <td><label for="">Laura Lopez <br>Maria Muñoz</label></td>
+                          <td><label for="">345</label></td>
+                          <td><label for="">4</label></td>
+                          <td><label for="">si</label></td>
+                          <td><label for="">Sala</label></td>
+                          <td><a href="">Ver contenido</a></td>
+                            <td><a href="">solicitar</a></td>
+                        </tr>
+                       
+                    </table>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="redes">
+                contactenos: <br>
+                <a id="let" href="https://www.instagram.com/"><span class="brandico-instagram-filled">Lasaventuradeloslibros</span></a>
+                <a id="let" href="https://www.facebook.com/"><span class="brandico-facebook-rect">Las aventura de los libros</span></a>
+                <a id="let" href="https://www.gmail.com/"><span class="zocial-email">Lasaventuradeloslibros@gmail.com</span></a>
+            
+            </div>
+        </footer>
+</body>
+</html>

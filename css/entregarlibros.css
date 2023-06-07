@@ -1,0 +1,113 @@
+@import url(https://weloveiconfonts.com/api/?family=brandico|zocial);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    background-color: rgb(135, 138, 132) ;
+    text-align: center;
+}
+body{
+    background-image: url('../img/Biblioteca_panoramica.jpeg');
+}
+.caja{
+    padding:  100px 0px 0px 19px;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-image: url(../img/biblio.jpg)
+
+}
+#ini{
+    background-color: rgb(135, 138, 132) ;
+    width: 185px;
+    margin-left: 1100px;
+    text-align: center;
+    border-radius: 10px;
+}
+.salir{
+    border: solid rgb(210, 203, 203);
+    border-radius: 10px;
+    margin-left: 100px;
+    text-align:center ;
+}
+#formulario{
+    background-color: rgba(120, 122, 118, 0.926) ;
+    border: 1px solid  black;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 150px;
+    padding: 2%;
+    font-size: 24px;
+    width: 900px;
+}
+footer, header{
+    text-align: center;
+    background-color: rgb(135, 138, 132) ;
+    font-size: 35px;
+}
+#doc{
+    background-color: rgba(120, 122, 118, 0.926) ;
+    font-size: 30px;  
+    width: 500px;
+    margin-left: 375px;
+    border-radius: 10px;
+    border: 1px solid  black;
+    text-align: center;
+    margin-bottom: 2px;
+}
+#let{
+    color: black;
+}
+input{
+    border-radius: 7px;
+    border: solid black 2px;
+    font-size: 16px;
+}  
+select{
+    border-radius: 7px;
+    font-size: 15px;
+    border: solid black 2px;
+
+}
+#formulario label{
+    font-size: 20px;
+    margin-right: 50px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    padding: 2%;
+}
+@media(min-width:300px) and (max-width:1310px){
+    #formulario{
+        margin-left: 6px;
+        margin-top: 20px;
+        flex: 50%;
+        max-width: 90%;
+    }
+    #doc{
+        flex: 50%;
+        margin-left: 10px;
+        max-width: 90%;
+    }
+    .caja{
+        height: 550px;
+    }
+    #ini{
+        flex: 50%;
+        margin-left: 250px;
+        max-width: 90%;
+        margin-bottom: 10px;
+    }
+}
